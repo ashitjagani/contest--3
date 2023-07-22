@@ -1,13 +1,12 @@
 h1{
     background-color: rgb(207, 202, 202);
     text-align: center;
+
     
 }
 
 *{
     background-color:red
-    background-image: url(https://images.unsplash.com/photo-1689832097085-43f8f645ebcb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8NnNNVmpUTFNrZVF8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
-
 }
 
 a:hover{
@@ -49,8 +48,49 @@ button{
    border:50px dashed blue;
    background-repeat: repeat-y;
    border-radius: 10%;
-   margin-top: 0px;
+
    
 }
+
+.hello {
+    list-style-type: square;
+    list-style-position: inside;
+    /* list-style-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMMrW9CJkBUuNTfUGNVv_6BaWPfo2veWixgSM6ML0Sow&s); */
+}
+
+.hello {
+    display: inline;
+}
+
+.block-element {
+    display: block;
+    background-color: lightblue;
+    padding: 10px;
+  }
+
+  .rim{
+    height:300px;
+    width: 50px;
+    background-color: brown;
+    margin-top: 20px;
+    border:3px solid blue;
+    position: sticky;
+    margin-left: 20px;
+  }
+
+  .static {
+    position: static;
+    border: 3px solid #73AD21;
+}
+
+.sticky {
+    position: sticky;
+    left: 50px;
+    border: 3px solid #73AD21;
+}
+
+  
+
+
 
   
